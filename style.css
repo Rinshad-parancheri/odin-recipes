@@ -14,46 +14,86 @@ body {
     height: 100dvh;
     width: 100dvw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
-}
-
-.upper-area {
-    display: grid;
-    height: 60px;
-    padding-top: 10px;
-    width: 100dvw;
-    background-color: var(--third-color);
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.header {
-    justify-self: end;
-}
-
-.header h1{
-    margin: 0;
-    padding: 0;
 }
 
 .nav {
-    display: grid;
-    justify-self: end;
+    display: flex;
+    justify-content: end;
 }
 
 .nav ul {
     padding: 13px;
     margin: 0;
+    background-color: var(--third-color);
     display: flex;
     justify-content: space-between;
     list-style: none;
-    font-size: 16px;
-    width: 200px;
+    font-size: 1.1rem;
+    max-width: 400px;
+    min-width: 300px;
 }
-
-
 
 .nav a {
     color: var(--secondary-color);
     text-decoration: none;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.recepes {
+    width: 100dvw;
+    height: 90dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.recepe {
+    width: 400px;
+    height: 400px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.recepe .link {
+    /* from stack overflow */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* fixes overlap error in IE7/8, 
+           make sure you have an empty gif */
+    background-image: url('empty.gif');
+
+}
+
+.recepe:hover {
+    transform: scaleX(1.02);
+}
+
+.recepe h3 {
+    color: var(--secondary-color);
+    letter-spacing: 0.2px;
+    font-size: 1.2rem;
+    transform: translateY(-5.5rem);
 }
