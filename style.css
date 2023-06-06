@@ -56,13 +56,14 @@ body {
     height: 90dvh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
 .recepe {
     width: 400px;
     height: 400px;
+    margin: 20px;
     border: 3px solid var(--secondary-color);
     border-radius: 10px;
     text-align: center;
@@ -96,4 +97,34 @@ body {
     letter-spacing: 0.2px;
     font-size: 1.2rem;
     transform: translateY(-5.5rem);
+}
+
+@media (max-width: 700px){
+   .header {
+    margin-bottom: 50px;
+   }
+    .recepes {
+        flex-wrap: wrap;
+    }
+    .recepe {
+        margin: 50px;
+    }
+}
+
+@media  (max-width: 425px){
+	 .header {
+        margin-bottom: 20px;
+     }
+     .recepes {
+     flex-wrap: wrap;
+     }
+
+     .recepe {
+        width: 300px;
+        height: 400px;
+        margin: 4rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
 }
