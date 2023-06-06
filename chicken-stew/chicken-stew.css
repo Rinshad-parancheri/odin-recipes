@@ -44,17 +44,6 @@ header {
     margin-bottom: 60px;
 }
 
-h1 {
-    color: #333;
-    font-size: 28px;
-    margin: 0;
-}
-
-h2 {
-    color: #555;
-    font-size: 20px;
-    margin-top: 0;
-}
 
 ul,
 ol {
@@ -62,9 +51,22 @@ ol {
     padding-left: 20px;
 }
 
-li {
-    margin-bottom: 10px;
+
+.ingredients ul li,
+.instructions ol li {
+    color: #555;
+    letter-spacing: 0.5px;
+
 }
+
+.ingredients ul li {
+    margin-bottom: 7px;
+}
+
+.instructions ol li {
+    margin-bottom: 12px;
+}
+ 
 
 @media (max-width: 600px) {
     header h1 {
