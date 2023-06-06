@@ -37,13 +37,24 @@ header {
     background-color: #FFF;
     padding: 20px;
     border-radius: 5px;
-    box-shadow:39px -24px 10px rgba(0, 0, 0,0.3);
+   box-shadow: 36px -27px 6px rgba(0, 0, 0, 0.2);
 }
 
 .ingredients {
     margin-bottom: 60px;
 }
 
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin: 0;
+}
+
+h2 {
+    color: #555;
+    font-size: 20px;
+    margin-top: 0;
+}
 
 ul,
 ol {
@@ -51,12 +62,24 @@ ol {
     padding-left: 20px;
 }
 
-
+li {
+    margin-bottom: 10px;
+}
 .ingredients ul li,
 .instructions ol li {
     color: #555;
     letter-spacing: 0.5px;
+}
 
+.ingredients ul li {
+    list-style: square;
+}
+
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 15px;
 }
 
 .ingredients ul li {
@@ -67,7 +90,6 @@ ol {
     margin-bottom: 12px;
 }
  
-
 @media (max-width: 600px) {
     header h1 {
         font-size: 28px;
