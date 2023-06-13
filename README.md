@@ -1,5 +1,5 @@
 # odin-recipes
-This is my first project with The Odin Project foundation. I have successfully completed all of The Odin Project once and did have a lot of preojects that i have build, but unfortunately, I lost all of my projects that were hosted on GitHub due to accidentally losing my GitHub account. While I feel sad about the loss, I am still happy because I believe that the knowledge and skills I gained during this journey will definitely help me achieve a greater understanding of the foundation, and it will pay off in the long run.
+This is my first project with The Odin Project foundation. I have successfully completed all of The Odin Project foundatin once and did have a lot of preojects that i have build, but unfortunately, I lost all of my projects that were hosted on GitHub due to accidentally losing my GitHub account. While I feel sad about the loss, I am still happy because I believe that the knowledge and skills I gained during this journey will definitely help me achieve a greater understanding of the foundation, and it will pay off in the long run.
 
 # Project Overview
 The Recipes Index Page project aims to create a user-friendly web page that serves as an index for various recipes. Users can browse through different recipes and access detailed information for each recipe.
